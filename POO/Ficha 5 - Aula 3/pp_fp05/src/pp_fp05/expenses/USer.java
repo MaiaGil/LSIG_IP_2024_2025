@@ -1,7 +1,7 @@
 package pp_fp05.expenses;
 import java.util.Scanner;
 
-public class USer {
+public class User {
     private Scanner in = new Scanner(System.in);
     private static int Lastid = 0;
     private int id;
@@ -12,13 +12,13 @@ public class USer {
     private static int count;
 
 
-    public USer() {
+    public User() {
         this.id = ++Lastid;
         this.despesa = new Expenses[SIZE];
         this.count = 0;
     }
 
-    public USer(String nome){
+    public User(String nome){
         this.id = ++Lastid;
         this.nome = nome;
         this.despesa = new Expenses[SIZE];
