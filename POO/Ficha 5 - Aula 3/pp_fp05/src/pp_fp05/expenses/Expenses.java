@@ -53,7 +53,7 @@ public class Expenses {
 
 
     /**
-     * Use this method to see what is the amount
+     * Use this priority to see what is the amount
      * @return the amount
      */
     public float getAmount(){
@@ -61,7 +61,7 @@ public class Expenses {
     }
 
     /**
-     * Use this method to see what is the type 
+     * Use this priority to see what is the type 
      * @return the type
      */
     public String getType(){
@@ -69,7 +69,7 @@ public class Expenses {
     }
 
     /**
-     * Use this method to see what is the date
+     * Use this priority to see what is the date
      * @return the date
      */
     public String getDate(){
