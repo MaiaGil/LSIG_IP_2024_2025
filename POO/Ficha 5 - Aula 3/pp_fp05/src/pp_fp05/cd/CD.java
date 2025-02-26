@@ -134,7 +134,7 @@ public class CD {
         int pos = searchMusic(music);
 
         if(this.countMusics == 0) {
-            System.out.println("The CD ihas no music");
+            System.out.println("The CD has no music");
             return;
         }
         
